@@ -2,7 +2,6 @@ const tabsHandlerElems = document.querySelectorAll('[data-tabs-handler]');
 // [] - аттрибут, а не свойство
 const tabsFieldElems = document.querySelectorAll('[data-tabs-field]');
 const designTitleElems = document.querySelectorAll('.design__title');
-console.log('designTitleElems: ', designTitleElems);
 
 for (const tab of tabsHandlerElems) {
 	tab.addEventListener('click', () => {

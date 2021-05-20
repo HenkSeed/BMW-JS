@@ -10,5 +10,7 @@ smothScrollElems.forEach((link) => {
 		document.getElementById(id).scrollIntoView({
 			behavior: 'smooth',
 		});
+		menuElem.classList.toggle('menu-active');
+		humburgerElem.classList.toggle('humburger-menu-active');
 	});
 });
